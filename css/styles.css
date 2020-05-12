@@ -1,1 +1,109 @@
 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 238, 247);
+    }
+
+    .navbar-brand a {
+        float: left;
+        color: black;
+        font-size: 0.5em;
+        margin: 0px;
+
+    }
+/* normally nidden */
+    .btn-group-vertical button {
+        background-color: #ffffff; /* White background */
+        border: 1px solid black; /* Green border */
+        color: black; /*Black text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        width: 100%;
+        align-items: center;
+        position: relative;
+        visibility: hidden;}
+
+
+   .navbar-brand {
+       float: left;
+   }
+   h1 {
+       font-size-adjust: initial;
+   }
+   h2 {
+       text-align: center;
+       margin: 0px;
+       color: black;
+   }
+
+   p {
+       justify-content: stretch;
+   }
+
+   .col-xs-12, .col-sm-12, .col-md-12 {
+       background-color: cadetblue;
+       margin: 10px;
+   }
+   
+    .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+}
+/*tablets, 768px and up) */
+@media (min-width: 768px) {
+.col-sm-12 {
+    width: 100%;
+}
+
+}
+ 
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.col-md-12 {
+    width: 100%;
+}
+.btn-group-vertical {
+    visibility: hidden;
+}
+
+}
+
+/* SMALL DEVICES PHONES <768PX */
+
+@media (max-width: 500px) {
+    .col-xs-12{
+        width: 100%;
+    }
+
+    .nav-mobile {
+        width: 100%;
+    }
+
+    .nav-mobile {
+        width: 499px;
+    }
+    .btn-group-vertical button {
+        width: 100%;
+        display: inline-flex;
+        visibility: visible;
+        align-content: stretch;
+        padding-right: 0px;
+        margin-right: 0px;
+
+    }
+
+    
+}
