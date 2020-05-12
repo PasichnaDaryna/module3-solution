@@ -95,14 +95,22 @@ body{
     .nav-mobile {
         width: 499px;
     }
+
+    .btn-group-vertical {
+        width:100%;
+    }
     .btn-group-vertical button {
         width: 100%;
-        display: inline-flex;
+        display: block;
         visibility: visible;
         align-content: stretch;
         padding-right: 0px;
         margin-right: 0px;
 
+    }
+
+    .col-xs-12 button {
+        width: 100%;
     }
 
     
